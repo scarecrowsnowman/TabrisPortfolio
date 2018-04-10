@@ -1,2 +1,2 @@
-# TabrisPortfolio
+# TabrisVideo Totr
 This is a small app in Tabris for my portfolio, will be base on JavaScript. 
