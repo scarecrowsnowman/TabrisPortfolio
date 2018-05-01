@@ -32,3 +32,7 @@ Sometimes your video.state would be replaced like the following code:<br />
 
 This would cause error and it would show in your console:
 ![](https://github.com/scarecrowsnowman/tabrisportfolioo/blob/master/img/6.jpg)
+
+If your code looks like this:
+![](https://github.com/scarecrowsnowman/tabrisportfolioo/blob/master/img/1.png)
+You are not going to have any trouble!
