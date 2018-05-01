@@ -12,7 +12,7 @@ const {
 } = require('tabris');
 
 const IMAGE_PATH = 'https://scarecrowsnowman.github.io/imd-learning-tabris/images/';
-const MY_GITHUB_REPO = 'https://github.com/mrmccormack/imd-learning-tabris'
+const MY_GITHUB_REPO = 'https://github.com/scarecrowsnowman/tabrisportfolioo'
 
 // global variables
 let numWins = 0;
