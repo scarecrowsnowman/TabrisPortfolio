@@ -25,3 +25,7 @@ url: 'https://github.com/scarecrowsnowman/imd-learning-tabris/raw/master/images/
 controlsVisible: true<br />
 }).on('select', () => video.state === 'play' ? video.pause() : video.play())<br />
 .appendTo(ui.contentView);<br />
+
+Sometimes your video.state would be replaced like the following code:<br />
+
+![](https://github.com/scarecrowsnowman/tabrisportfolioo/blob/master/img/4.png)
