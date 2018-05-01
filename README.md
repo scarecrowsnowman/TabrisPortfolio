@@ -36,3 +36,6 @@ This would cause error and it would show in your console:
 If your code looks like this:
 ![](https://github.com/scarecrowsnowman/tabrisportfolioo/blob/master/img/1.png)
 You are not going to have any trouble!
+
+Last but not least don't forget to add "video" in your const!
+![](https://github.com/scarecrowsnowman/tabrisportfolioo/blob/master/img/8.png)
