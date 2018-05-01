@@ -1,4 +1,4 @@
-// This is a simple Tabris.js app. by MR. M. -  Feel free to modify as you please.
+// This is a simple Tabris.js app. based by MR. M. -  Feel free to modify as you please.
 
 const {
   Button,
@@ -89,7 +89,7 @@ let label = new TextView({
   centerX: 0,
   top: 'prev() 10',
   font: '14px',
-  text: 'Welcome to Mr. M. Casino'
+  text: 'Welcome to Casino Version 5.0'
 }).appendTo(ui.contentView);
 
 // Display images with different scale modes
@@ -133,7 +133,7 @@ new Button({
   text: '© INFO'
 }).on('select', () => {
   new AlertDialog({
-    message: '© 2018 Mr. M. - Free to use',
+    message: 'Thanks to Mr. M. © 2018 Mr. M. - Free to use This is version No. 5 and added win video with control panel',
     buttons: {ok: 'OK'}
   }).open();
 }).appendTo(ui.contentView);
