@@ -54,18 +54,18 @@ let button = new Button({
 
 
       winnerimage.image = IMAGE_PATH + ' ';
-let button3 = new Button({
+/*let button3 = new Button({
   id: 'button3',
   centerX: 0, top: 'prev() 10',
   text: '❚❚'
 }).on('select', () => video.state === 'play' ? video.pause() : video.play())
-  .appendTo(ui.contentView);
+  .appendTo(ui.contentView);*/
 
 let video = new Video({
-  left: 100, top: 110, right:100, bottom: '#button3 16', 
-  url: 'https://github.com/scarecrowsnowman/imd-learning-tabris/raw/master/images/120.mp4',
-  controlsVisible: false
-}).on('stateChanged', event => button2.text = event.value !== 'pause' ? '❚❚' : '▶')
+  left: 100, top: 70, right:100, bottom: '#button3 16', 
+  url: 'https://github.com/scarecrowsnowman/imd-learning-tabris/raw/master/images/121.mp4',
+  controlsVisible: true
+}).on('select', () => video.state === 'play' ? video.pause() : video.play())
   .appendTo(ui.contentView);
 
 return;
@@ -149,9 +149,3 @@ new Button({
     .then(() => label.text = 'Url has been launched')
     .catch((e) => label.text = e)
 }).appendTo(ui.contentView);
- 
-
-
- 
-  
-  
